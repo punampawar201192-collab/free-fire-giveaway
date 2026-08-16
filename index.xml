@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <project>
+        <name>Free Fire Inspired Cybersecurity Lab</name>
+        <type>Educational Simulation</type>
+        <environment>localhost</environment>
+        <real_credentials>false</real_credentials>
+    </project>
+
+    <login_demo>
+        <title>Diamond Giveaway - Demo</title>
+        <description> we are getting free diamonds from here login ur game id password correctly without any mistake .</description>
+        <fields>
+            <field name="username" type="text" />
+            <field name="password" type="password" />
+        </fields>
+    </login_demo>
+
+    <admin_demo>
+        <visible_fields>
+            <field>demo_username</field>
+            <field>submission_time</field>
+            <field>password_entered</field>
+        </visible_fields>
+        <store_real_passwords>false</store_real_passwords>
+    </admin_demo>
+
+    <sample_credentials>
+        <username>demo_player</username>
+        <password>Demo@123</password>
+    </sample_credentials>
+</phishing_awareness_demo>
